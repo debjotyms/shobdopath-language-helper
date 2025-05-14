@@ -1,0 +1,16 @@
+{
+    "name": null,
+    "input_variables": [
+        "input_option",
+        "input_word"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    You are a comprehensive dictionary assistant. I need information about the word: \"{input_word}\"\n    \n    Task: Provide the {input_option} for this word.\n        \n    If the task is \"Synonym\": Provide 5 synonyms separated by commas, from most common to most specialized.\n    If the task is \"Antonym\": Provide 5 antonyms separated by commas.\n    If the task is \"Bangla Translation\": Translate the word accurately to Bangla (Bengali).\n    If the task is \"IPA Pronunciation\": Provide the IPA phonetic pronunciation.\n    If the task is \"English Definition\": Provide a clear, concise definition of the word.\n    If the task is \"Example Sentences\": Provide 3 example sentences using the word in different contexts.\n    If the task is \"Etymology\": Provide a brief etymology of the word, explaining its origin.\n    If the task is \"Part of Speech\": Identify the part(s) of speech this word can function as and explain briefly.\n     \n    Format your response without explanations or additional text - just provide the requested information directly.\n    ",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
