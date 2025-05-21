@@ -1,48 +1,52 @@
 # ShobdoPath Language Helper
 
-**ShobdoPath** is an AI-powered language learning and vocabulary assistant designed to make English word exploration, reading assistance, and language games more interactive and personalized — especially for Bengali learners.
+**ShobdoPath** is a simple tool I built for my personal use to help with learning English words and reading. It is made for Bengali speakers, but anyone can use it. You can also fork this project and change it however you like.
 
-Built with **Streamlit** and powered by **Gemini Pro** (via LangChain), this app can explain English words, simplify text, generate vocabulary games, and much more.
+This app uses **Streamlit** for the interface and the **Gemini API** (via LangChain) for AI features.
 
 🎬 **Demo:**  
-![demo.mp4](https://github.com/debjotyms/shobdopath-language-helper/blob/main/demo.mp4)
+<img src="demo.gif" alt="ShobdoPath Demo" width="600"/>
 
 ## 🚀 Features
 
 ### Word Explorer
-Explore words in detail:
-- Synonyms & Antonyms
+
+- Find synonyms and antonyms
 - Bangla translation
 - IPA pronunciation
-- Definitions, Examples, Etymology, Part of Speech
+- Definitions, examples, etymology, part of speech
 
 ### Language Games
-Make learning fun with:
+
 - Word Association
-- Vocabulary Builder (with difficulty levels)
+- Vocabulary Builder (choose difficulty)
 - Anagram Solver
 
 ### Reading Assistant
-Paste any English paragraph and:
-- Simplify the language
-- Highlight key vocabulary
-- Generate summaries
+
+- Paste any English paragraph
+- Simplifies the language
+- Highlights important words
+- Makes summaries
 
 ## Installation
 
 1. **Clone the repo**
+
    ```bash
    git clone https://github.com/debjotyms/shobdopath-language-helper.git
    cd shobdopath-language-helper
    ```
 
 2. **Install dependencies**
+
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Setup API keys**
-   * Create a `.env` file with your [Google Gemini API Key](https://ai.google.dev/).
+3. **Set up API keys**
+
+   - Make a `.env` file with your [Google Gemini API Key](https://ai.google.dev/).
      ```
      GOOGLE_API_KEY=your_google_gemini_api_key
      ```
@@ -53,6 +57,7 @@ Paste any English paragraph and:
    ```
 
 ## 📂 File Structure
+
 ```
 .
 ├── app.py                    # Main Streamlit app
@@ -63,10 +68,13 @@ Paste any English paragraph and:
 ```
 
 ## Contributing
-PRs and issues are welcome! If you have a feature idea or want to translate the app fully into Bangla, feel free to open a pull request.
+
+Feel free to fork and change this project for your own needs. PRs and issues are welcome!
 
 ## License
+
 This project is licensed under the MIT License.
 
 ## Author
-Made with ❤️ by [Debjoty M S](https://debjotyms.com)
+
+Made with ❤️ by [Debjoty Mitra](https://debjotyms.com)
